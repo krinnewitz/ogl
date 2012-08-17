@@ -1,0 +1,17 @@
+0. Author
+=========
+The provided code is written by Kim Oliver Rinnewitz (krinnewitz@uos.de)
+
+1. Description
+==============
+
+2. Requirements
+===============
+
+3. Compiling
+============
+You can compile the program by entering the following commands on the command line:
+
+    mkdir build && cd build
+    cmake ..
+    make
