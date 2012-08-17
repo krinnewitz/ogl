@@ -45,13 +45,13 @@ void display()
 	glColor3f (1,1,1);
 	glBindTexture(GL_TEXTURE_2D, texture);
 
-	glTexCoord2d(1,1); glVertex3f(-0.5,-0.5,0);
+	glTexCoord2d(2,2); glVertex3f(-0.5,-0.5,0);
 	glTexCoord2d(0,0); glVertex3f(0.5,0.5,0);
-	glTexCoord2d(1,0); glVertex3f(-0.5,0.5,0);
+	glTexCoord2d(2,0); glVertex3f(-0.5,0.5,0);
 
-	glTexCoord2d(1,1); glVertex3f(-0.5,-0.5,0);
+	glTexCoord2d(2,2); glVertex3f(-0.5,-0.5,0);
 	glTexCoord2d(0,0); glVertex3f(0.5,0.5,0);
-	glTexCoord2d(0,1); glVertex3f(0.5,-0.5,0);
+	glTexCoord2d(0,2); glVertex3f(0.5,-0.5,0);
 
 	glEnd();
 
